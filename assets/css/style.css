@@ -99,3 +99,38 @@ header .container {
     background-color: var(--terciary-color);
 }
 
+#descricao .container {
+    display: flex;
+}
+
+#descricao .container .lado-esquerdo {
+    display: flex;
+    flex: 1;
+}
+
+#descricao .container .lado-esquerdo img {
+    margin-right: 1rem;
+}
+
+#descricao .container .lado-direito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+#descricao .container .lado-direito h1,
+#descricao .container .lado-direito p {
+    max-width: 25rem;
+}
+
+#descricao .container .bloco {
+    width: 8rem;
+    height: 16rem;
+    border-radius: 0px 15px 15px 0px;
+    position: absolute;
+    left: 0px;
+    margin-top: 20rem;
+    background-color: var(--terciary-color);
+}
