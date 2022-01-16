@@ -42,4 +42,60 @@ header .container {
     font-weight: 700;
 }
 
+#banner .container {
+    display: flex;
+    padding: 7rem 2rem;
+}
+
+#banner .container .lado-esquerdo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+#banner .container .lado-esquerdo h1{
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+#banner .container .lado-esquerdo p{
+    margin: 1.5rem 0rem;
+    font-size: 1rem;
+}
+
+#banner .container .lado-esquerdo h1,
+#banner .container .lado-esquerdo p{
+    max-width: 30rem;
+}
+
+#banner .container .lado-esquerdo .lado-esquerdo-buttoms {
+    display: flex;
+    align-items: center;
+}
+
+#banner .container .lado-esquerdo .lado-esquerdo-buttoms p{
+    margin-left: 2rem;
+    color: #C4C4C4;
+}
+
+#banner .container .lado-esquerdo .lado-esquerdo-buttoms a{
+    background-color: var(--primary-color);
+    color: var(--terciary-color);
+}
+
+#banner .container .lado-direito {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+#banner .container .bloco {
+    width: 10rem;
+    height: 16rem;
+    border-radius: 15px 0px 0px 15px;
+    position: absolute;
+    right: 0px;
+    background-color: var(--terciary-color);
+}
 
