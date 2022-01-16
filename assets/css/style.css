@@ -19,5 +19,25 @@ body {
     color: var(--secondary-color);
 }
 
+.container {
+    width: 80rem;
+    margin: auto;
+}
 
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.buttom {
+    padding: 1.2rem 1.4rem;
+    background-color: var(--terciary-color);
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    font-weight: 700;
+}
 
