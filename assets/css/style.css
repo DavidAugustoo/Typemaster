@@ -20,8 +20,9 @@ body {
 }
 
 .container {
-    width: 80rem;
+    max-width: 100rem;
     margin: auto;
+    padding: 0rem 2rem;
 }
 
 header .container {
@@ -32,7 +33,7 @@ header .container {
 }
 
 .buttom {
-    padding: 1.2rem 1.4rem;
+    padding: 1.0rem 1.2rem;
     background-color: var(--terciary-color);
     border-radius: 10px;
     text-decoration: none;
@@ -40,4 +41,5 @@ header .container {
     color: var(--secondary-color);
     font-weight: 700;
 }
+
 
